@@ -1,1 +1,43 @@
-1
+body {
+	background: #8B0000;
+	font-family: 'Rubik', sans-serif;
+	color: 	#DCDCDC;
+}
+
+.nav ul {
+	display: flex;	
+}
+
+.nav ul  li {
+	margin: 0 18px;
+	list-style: none;
+}
+
+.nav a {
+	background: #7FFFD4;
+	color: #000000;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+p {
+	margin: 50px 30px;
+	line-height: 30px;
+}
+
+iframe {
+	width: 100%;
+}
+
+.main .iframe {
+	margin-bottom: 20px;
+	border-radius: 17px;
+	overflow: hidden;
+}
+
