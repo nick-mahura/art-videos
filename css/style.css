@@ -6,8 +6,14 @@ body {
 
 .nav ul {
 	display: flex;	
+	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 600px) {
+	.nav ul {
+		height: 100px
+	}
+}
 .nav ul  li {
 	margin: 0 18px;
 	list-style: none;
